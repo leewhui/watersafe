@@ -235,7 +235,9 @@
                             <p style="font-weight: bolder;">Cost: ${event.getCost()}</p>
                             <p style="font-weight: bolder;">Frequency: ${event.getTime()}</p>
                             <p style="font-weight: bolder;">Contact details: ${event.getContact()}</p>
-                            <p>Available at ${event.getOrganisation()}</p>
+                            <p style="font-weight: bolder;">Phone: ${event.getPhone()}</p>
+                            <p style="font-weight: bolder;">Email: ${event.getEmail()}</p>
+                            <p style="font-weight: bolder;">Run by: ${event.getOrganisation()}</p>
                             <p><i class="fas fa-at"></i> <a href="${event.getWebsite()}">${event.getWebsite()}</a></p>
                         </div>
                     </div>
@@ -258,7 +260,9 @@
                             <p style="font-weight: bolder;">Cost: ${event.getCost()}</p>
                             <p style="font-weight: bolder;">Frequency: ${event.getTime()}</p>
                             <p style="font-weight: bolder;">Contact details: ${event.getContact()}</p>
-                            <p>Available at ${event.getOrganisation()}</p>
+                            <p style="font-weight: bolder;">Phone: ${event.getPhone()}</p>
+                            <p style="font-weight: bolder;">Email: ${event.getEmail()}</p>
+                            <p style="font-weight: bolder;">Run by: ${event.getOrganisation()}</p>
                             <p><i class="fas fa-at"></i> <a href="${event.getWebsite()}">${event.getWebsite()}</a></p>
                         </div>
                     </div>
